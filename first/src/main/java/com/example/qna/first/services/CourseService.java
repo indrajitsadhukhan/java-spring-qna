@@ -6,4 +6,6 @@ import com.example.qna.first.entities.Course;
 
 public interface CourseService {
     public List<Course> getCourses();
+    public void addCourse(Course course);
+    public void removeCourse(Course course);
 }
